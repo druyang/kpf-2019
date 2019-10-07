@@ -27,6 +27,6 @@ I chose an OOP approach with Python. Python was selected because building a card
 
 ## Future Improvements
 
-Hand win/lose was not efficient and not well designed. A lot of end game (or end hand) behavior can be optimized. The checks could be moved into one of the classes and called after each action. 
+Hand win/lose was not efficient and not well designed. A lot of end game (or end hand) behavior can be optimized. The checks could be moved into one of the classes and called after each action. `blackjack.py` included a lot of repeated code.
 
 I intended to build a Blackjack trainer for basic strategy (to help players memorize the correct move) , utilizing a dictionary. The value on the board (key) would compare the users decision with a definition (correct/incorrect). The time complexity of dictionary is constant time O(1) and efficient in this case. 
